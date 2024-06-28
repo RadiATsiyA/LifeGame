@@ -38,9 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'users',
-    'goal',
-    'friendship',
+    # 3rd party
+    "rest_framework",
+
+
+    # local
+    'api.apps.ApiConfig',
+    'users.apps.UsersConfig',
+    'goal.apps.GoalConfig',
+    'friendship.apps.FriendshipConfig',
 
 ]
 
